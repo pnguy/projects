@@ -1,10 +1,10 @@
 # fow app using mean
 
 Requires 
-    - node.js
-        - npm install --save string
-        - npm install --save path
-    - mongoDB
+    node.js
+        npm install --save string
+        npm install --save path
+    mongoDB
 
 Start
-    - npm start
+    npm start
