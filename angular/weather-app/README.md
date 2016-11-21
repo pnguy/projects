@@ -1,1 +1,1 @@
-# Weather App using angularJs
+# Weather app
