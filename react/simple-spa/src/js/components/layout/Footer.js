@@ -1,0 +1,45 @@
+import React from "react";
+
+
+export default class Footer extends React.Component {
+  render() {
+    return (
+      <footer>
+        <div class="footer lb-sm">
+          <ul class="footer-float-left">
+            <li>SALES</li>
+            <li><a href="/support/">Contact Us</a></li>
+            <li><a href="/shipping-returns/">Shipping Policy</a></li>
+            <li><a href="/resellers/">Authorized Resellers</a></li>
+          </ul>
+
+          <ul class="footer-float-left">
+            <li>SUPPORT</li>
+            <li><a href="/warranty-registration/">Register Your Product</a></li>
+            <li><a href="/warranty/">Warranty / Terms / Returns</a></li>
+            <li><a href="/privacy-legal/">Privacy / Legal</a></li>
+          </ul>
+
+          <ul class="footer-float-left">
+            <li>PARTNERS</li>
+            <li><a href="http://www.usatriathlon.org" target="_blank">USA Triathalon</a> / <a href="/usat/">Login</a></li>
+            <li><a href="http://avp.com" target="_blank">AVP Beach Volleyball</a></li>
+            <li><a href="http://www.runrocknroll.com" target="_blank">Rock 'N' Roll Marathons</a></li>
+          </ul>
+
+          <ul class="footer-float-left">
+            <li>LINKS</li>
+            <li><a href="https://github.com/pnguyen-astontech/Projects/tree/master/Mean/FOW" target="_blank">GitHub</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li> </li>
+          </ul>
+
+          <div class="float-right">
+            &copy;Copyright 2016 pnguyen@fap.com
+          </div>
+        </div>
+      </footer>
+    );
+  }
+}
